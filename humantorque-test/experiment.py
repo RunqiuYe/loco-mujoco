@@ -4,6 +4,7 @@ import torch
 from torch.utils.tensorboard import SummaryWriter
 from experiment_launcher import run_experiment
 from mushroom_rl.core import Core
+from mushroom_rl.core import Agent
 from mushroom_rl.utils.dataset import compute_J, compute_episodes_length
 from mushroom_rl.core.logger.logger import Logger
 
