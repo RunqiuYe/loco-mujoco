@@ -21,8 +21,8 @@ if __name__ == '__main__':
                         use_timestamp=True,
                         )
 
-    default_params = dict(n_epochs=100,
-                          n_steps_per_epoch=1000,
+    default_params = dict(n_epochs=200,
+                          n_steps_per_epoch=5000,
                           n_epochs_save=25,
                           n_eval_episodes=10,
                           n_steps_per_fit=1000,
